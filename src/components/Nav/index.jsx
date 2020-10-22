@@ -1,6 +1,5 @@
 import React from 'react';
 
-// You're likely missing some imports...
 import {
   BrowserRouter as Router,
   Switch,  
@@ -9,8 +8,6 @@ import {
 } from 'react-router-dom';
 
 import Styles from './styles';
-
-// Don't forget to import your components
 import Home from '../Home';
 import About from '../About';
 
@@ -21,23 +18,20 @@ const Nav = () => {
       <Styles.Nav>
         <ul>
           <li>
-            /* Your link to home here */
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li>
-            /* Your link to about here */
-            <Link to="/About">About</Link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </Styles.Nav>
 
       <Switch>
-        /* Your Routes Here */
-        <Route exact path="/">
+        <Route exact path="/home">
           <Home />
         </Route>
 
-        <Route exact path="/About">
+        <Route exact path="/about">
           <About />
         </Route>
       </Switch>

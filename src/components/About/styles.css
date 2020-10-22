@@ -1,0 +1,17 @@
+p {
+    margin: 15px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(51, 204, 51);
+    width: 600px;
+    color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+}
+#funfact :nth-child(1) {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase; 
+    
+    width: 100px;
+  }

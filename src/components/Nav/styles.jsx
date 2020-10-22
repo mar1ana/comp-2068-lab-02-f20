@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export default {
   Nav: styled.nav`
-    background: #2c3e50;
+    background: rgb(0, 0, 255);
     display: flex;
     align-items: center;
     height: 60px;

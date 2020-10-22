@@ -6,7 +6,7 @@ export default {
     padding: 1em;
     border-radius: 10px;
     margin: 0 auto;
-    width: 95%;
+    width: 20%;
     margin-top: 2em;
     background: #f1c40f;
     color: #2c3e50;
